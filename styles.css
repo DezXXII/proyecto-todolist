@@ -1,0 +1,146 @@
+html {
+    height: 90%;
+}
+
+body {
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 100px;
+    text-shadow: 1px 1px 2px black;
+}
+
+/** Container **/
+
+.container {
+    text-align: center;
+    max-width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.taskInput {
+    font-size: 30px;
+    padding-left: 20px;
+    width: 500px;
+    height: 50px;
+    margin-bottom: 20px;
+    position: relative;
+    right: 25px;
+}
+
+/** Buttons **/
+
+.delete-button {
+    background-color: #ff3333;
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.delete-button:hover {
+    cursor: pointer;
+    background-color: #990000;
+}
+
+.btnAdd {
+    background-color: #009973;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+}
+
+.btnAdd:hover {
+    cursor: pointer;
+    background-color: #004d38;
+}
+
+.btnDelete {
+    background-color: #ff3333;
+    border-radius: 5px;
+    padding: 10px 100px 10px 100px;
+    border: none;
+    color: white;
+    font-size: 25px;
+    border: 1px black solid;
+}
+
+.btnDelete:hover {
+    cursor: pointer;
+    background-color: #990000;
+}
+
+/** Input **/
+
+input {
+    padding: 7px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px grey solid;
+}
+
+/** Error Messages **/
+
+.texto-error {
+    color: red;
+    font-size: 50px;
+}
+
+/** ul and li **/
+
+
+ul {
+    list-style: none;
+    width: 500px;
+
+}
+
+li {
+    margin: 0 30px;
+    border-radius: 5px;
+    padding: 1px 15px;
+    background-color: white;
+    margin-top: 5px;
+    margin-left: -5px;
+    position: relative;
+    right: 30px;
+
+}
+
+li p {
+    margin: 10px 0 0 0;
+    padding: 0;
+}
+
+/** Details **/
+
+.actions-container {
+    color: black;
+    font-size: 40px;
+}
+
+.enter-key-message {
+    color: white;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px black;
+}
+
+.empty-message {
+    color: white;
+    font-size: 25px;
+}
+
+
+

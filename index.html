@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>To Do List</title>
+</head>
+<body>
+
+
+    <h1 class="name">To-Do List</h1>
+
+
+    <div class="container">
+
+        <input class="taskInput" type="text" placeholder="Add something">
+
+        <!-- <button class="btnAdd">+</button> -->
+        <button class="btnDelete">Clear All Actions</button>
+
+        <div class="actions-container">
+            <p class="enter-key-message">Press the Enter key to add your task to the list!</p>
+            <ul class="li-container">
+
+            </ul>
+        </div>
+        <div class="empty-list">
+            <p class="empty-message">You don't have anything to do.</p>
+        </div>
+        <div class="pepito">
+            <p class="texto-error" id="texto-error-id"></p>
+        </div>
+    </div>
+    
+
+    <script src="scripts.js"></script>
+</body>
+</html>
